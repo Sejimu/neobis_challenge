@@ -50,7 +50,7 @@ Widget _buildBody(List<dynamic> items) {
   return Column(
     children: (items as List<ProductCategoryMotelItem>).map((item) {
       return Container(
-        child: Text(item.name),
+        child: Text("main screen"),
       );
     }).toList(),
   );
